@@ -15,8 +15,7 @@ def main():
     
 
 def num_words(nejaky_string):
-    num = nejaky_string.split()
-    return len(num)
+    return len(nejaky_string.split())
 
 def num_letters(nejaky_string):
     dictionary = {}
